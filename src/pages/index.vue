@@ -6,15 +6,13 @@
 </template>
 
 <script>
-import ToDoInput from "@/components/ToDoInput";
-import ToDoList from "@/components/ToDoList";
-import ToDoItem from "@/components/ToDoItem";
+import ToDoInput from "./_partials/ToDoInput";
+import ToDoList from "./_partials/ToDoList";
 
 export default {
   components: {
     ToDoInput,
     ToDoList,
-    ToDoItem,
   },
 };
 </script>
